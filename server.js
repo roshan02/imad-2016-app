@@ -34,8 +34,8 @@ app.get('/ui/Roshan1.png', function (req, res) {
 app.get('/ui/Roshan2.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Roshan2.png'));
 });
-app.get('/ui/Roshan3.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Roshan3.png'));
+app.get('/ui/Roshan30.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Roshan30.png'));
 });
 app.get('/ui/roshan.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'roshan.png'));
