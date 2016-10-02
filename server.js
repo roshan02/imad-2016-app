@@ -22,8 +22,20 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/Roshan.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Roshan.png'));
+});
+app.get('/ui/Roshan4.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Roshan4.png'));
+});
+app.get('/ui/Roshan1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Roshan1.png'));
+});
+app.get('/ui/Roshan2.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Roshan2.png'));
+});
+app.get('/ui/Roshan3.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Roshan3.png'));
 });
 app.get('/ui/roshan.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'roshan.png'));
