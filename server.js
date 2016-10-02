@@ -25,6 +25,39 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+app.get('/ui/roshan.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan.png'));
+});
+app.get('/ui/roshan1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan1.png'));
+});
+app.get('/ui/roshan2.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan2.png'));
+});
+app.get('/ui/roshan3.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan3.png'));
+});
+app.get('/ui/roshan4.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan4.png'));
+});
+app.get('/ui/roshan5.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan5.png'));
+});
+app.get('/ui/roshan6.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan6.png'));
+});
+app.get('/ui/roshan7.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan7.png'));
+});
+app.get('/ui/roshan8.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan8.png'));
+});
+app.get('/ui/roshan9.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan9.png'));
+});
+app.get('/ui/roshan10.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'roshan10.png'));
+});
 app.get('/ui/roshan1.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'roshan1.png'));
 });
