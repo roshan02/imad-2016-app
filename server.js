@@ -76,8 +76,8 @@ app.get('/ui/roshan1.png', function (req, res) {
 app.get('/ui/video1.mp4', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'video1.mp4'));
 });
-app.get('/ui/Tu Zaroori - Zid _ Female Cover by Shirley Setia ft. Arjun.mp4', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Tu Zaroori - Zid _ Female Cover by Shirley Setia ft. Arjun.mp4'));
+app.get('/ui/shirleysetia.mp4', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'shirleysetia.mp4'));
 });
 
 
