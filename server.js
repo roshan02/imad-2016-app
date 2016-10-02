@@ -82,6 +82,9 @@ app.get('/ui/shirleysetia.mp4', function (req, res) {
 app.get('/ui/KaunTujhe.mp3', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'KaunTujhe.mp3'));
 });
+app.get('/ui/JabTak.mp3', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'JabTak.mp3'));
+});
 app.get('/ui/msd.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'msd.png'));
 });
